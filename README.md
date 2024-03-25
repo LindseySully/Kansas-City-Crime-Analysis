@@ -11,18 +11,24 @@ The goal is to leverage machine learning algorithms to break down time series da
 1. Python 3.7 + (3.11+ Preferred)
 1. VS Code Editor
 1. VS Code Extension: Python (by Microsoft)
-1. dotenv (**May change)
-    - Install **dotenv** by `pip install python-dotenv`
+
 
 ## Getting Started 
 1. Fork this repo into your GitHub.
 1. Clone your repo down to your machine.
 1. View/ Command Palette - then Python: Select Interpreter
 1. Select your conda environment
-1. Install necessary libraries listed below and within the `requirements.txt` file using `pip install -r requirements.txt`
+1. Install necessary libraries listed below and within the `requirements.txt` file using `pip install -r requirements.txt` **Instructions below for Virtual Environment Set-up**
+
+### Virtual Environment Set Up
+For those wanting to use a Virtual Environment run the following in a terminal:
+1. Run the command `python3 -m venv venv`
+1. Activate the virtual environment
+    1. On Windows: `.\venv\Scripts\activate`
+    1. On macOS and Linux `source venv/bin/activate`
+1. Ensure the environment is activate and then install the packages listed in `requirements.text` by running: `pip install -r requirements.txt`
 
 ## Project Libraries
-
 - Pandas
 - matplotlib.pyplot
 - Numpy
