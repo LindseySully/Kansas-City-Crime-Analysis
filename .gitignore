@@ -154,6 +154,7 @@ cython_debug/
 
 # Ignore Files
 File_Handling/
+Data/Original_Data/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
