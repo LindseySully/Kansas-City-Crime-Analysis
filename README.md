@@ -57,10 +57,15 @@ For those wanting to use a Virtual Environment run the following in a terminal:
 
 ### Multi-Label Classification Models
 - **Random Forest**:
-    - Combines multiple decision trees to reduce the risk of overfitting. Model uses the average of teh predictions from various trees to improve the predictive accuracy and control over-fitting.
+    - Constructs multiple decision "trees" hence the forest during the training time and outputting the classes. It is less likely to overfit than a single decision tree. 
 - **K-Nearest Neighbors (k-NN)**: 
-    - K-NN does not require a seperating training phase, it uses the entire dataset as the "model" for learning
+    - k-NN, stores all available cases and classifies new cases based on a similarity measure. It is non-parametric, meaning no underlying assumptions about the distribution of data.
+- **XGBoost**: 
+    - XGBoost or eXtreme Gradient Boosting is highly efficient, flexible, and portable. It provides parallel tree boosting.
 
 ### Single-Label Classification Models
 - **XGBoost**: 
     - 
+
+## Statistical Methods
+- **Cross-Validation**: used to estimate the skill of machine learning models. It is a re-sampling procedure used to evaluate models on a limited data sample. It uses a single parameter *k* - that refers to the number of groups each data sample will be split into. The process is repeated *k* times, each with a different fold treated as the validation set. 
