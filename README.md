@@ -29,13 +29,38 @@ For those wanting to use a Virtual Environment run the following in a terminal:
 1. Ensure the environment is activate and then install the packages listed in `requirements.text` by running: `pip install -r requirements.txt`
 
 ## Project Libraries
-- Pandas
+- Pandas:
+    - Provides DataFrame object for data manipulation and integrated indexing.
+    - Tools for reading and writing data for the CSV files within this project. 
 - matplotlib.pyplot
-- Numpy
-- sklearn.model_selection
-- sklearn.metrics
+    - Comprehensive library for creating static, animated, and interactive visualizations.
+    - Provides a wide variety of plots and plotting functions.
+- NumPy
+    - Provides high-performance multidimensional array object, and tools for working with these arrays
+    - Key library for computing in Python
+- nbformat
+    - Package that defines the struction of Jupyter Notebooks.
+- Seaborn
+    - Visualization library built on matplotlib that provides visualization functions for displaying complex statistical relationships.
+- scikit learn
+    - Provides Simple and Efficient Tools for Predictive Data Analysis
+    - Built on NumPy, SciPy, and matplotlib
 
 ## Project Files
 
 - **Crime_Analysis_EDA.ipynb**: this is the file that contains the necessary information for the exploratory data analysis. This will leverage python pyplot, pandas, pandas scatter_matrix to provide the initial data analysis within python. 
-- **Crime_Analysis_ML.ipynb**: this is the file that contains the model detail inforamtion and the train/test set information and the comparison of the models. 
+- **Crime_Analysis_Pre_Processing.ipynb**: this is the file that contains the steps to handle the pre-processing portion of the data set - specifically the custom imputation.
+- **Crime_Analysis_Feature_Eng.ipynb**: this is the file that contains the code that deals with the feature engineering portion of the data set
+- **Crime_Analysis_Modeling.ipynb**: this is the file that contains the model detail inforamtion and the train/test set information and the comparison of the models. 
+
+## Models
+
+### Multi-Label Classification Models
+- **Random Forest**:
+    - Combines multiple decision trees to reduce the risk of overfitting. Model uses the average of teh predictions from various trees to improve the predictive accuracy and control over-fitting.
+- **K-Nearest Neighbors (k-NN)**: 
+    - K-NN does not require a seperating training phase, it uses the entire dataset as the "model" for learning
+
+### Single-Label Classification Models
+- **XGBoost**: 
+    - 
