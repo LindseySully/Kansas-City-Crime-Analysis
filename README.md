@@ -52,6 +52,7 @@ For those wanting to use a Virtual Environment run the following in a terminal:
 - **Crime_Analysis_Pre_Processing.ipynb**: this is the file that contains the steps to handle the pre-processing portion of the data set - specifically the custom imputation.
 - **Crime_Analysis_Feature_Eng.ipynb**: this is the file that contains the code that deals with the feature engineering portion of the data set
 - **Crime_Analysis_Modeling.ipynb**: this is the file that contains the model detail inforamtion and the train/test set information and the comparison of the models. 
+- **Crime_Analysis_Neural_Net.ipynb**: this is the file that contains the model deployment of a neural net.
 
 ## Models
 
@@ -64,8 +65,14 @@ For those wanting to use a Virtual Environment run the following in a terminal:
     - XGBoost or eXtreme Gradient Boosting is highly efficient, flexible, and portable. It provides parallel tree boosting.
 
 ### Single-Label Classification Models
+- **Random Forest**:
+    - Constructs multiple decision "trees" hence the forest during the training time and outputting the classes. It is less likely to overfit than a single decision tree. 
 - **XGBoost**: 
-    - 
+    - XGBoost or eXtreme Gradient Boosting is highly efficient, flexible, and portable. It provides parallel tree boosting.
+- **Logistic Regression**:
+    - Logistic regression is a supervised learning algorithm used with binary classification problems
+- **Neural Net**:
+    - Neural Network are machine learning programs that consist of layers or nodes or artifical neurons. It relies on training data to learn and improve their accuracy over time.
 
 ## Statistical Methods
 - **Cross-Validation**: used to estimate the skill of machine learning models. It is a re-sampling procedure used to evaluate models on a limited data sample. It uses a single parameter *k* - that refers to the number of groups each data sample will be split into. The process is repeated *k* times, each with a different fold treated as the validation set. 
