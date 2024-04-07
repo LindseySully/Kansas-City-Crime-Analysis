@@ -54,6 +54,13 @@ For those wanting to use a Virtual Environment run the following in a terminal:
 - **Crime_Analysis_Modeling.ipynb**: this is the file that contains the model detail inforamtion and the train/test set information and the comparison of the models. 
 - **Crime_Analysis_Neural_Net.ipynb**: this is the file that contains the model deployment of a neural net.
 
+## Exploratory Data Analysis
+Used to conduct the EDA of the data set and understand the relationships and correlations of the data set through various visualizations using the *matplotlib & Seaborn* libraries.
+
+**Key Features: General Offense Rank & Age Range**
+![General-Offense-Count](Screenshots/General-Offense-Counts.png)
+![Heatmap-Crime-Type-Age-Range](Screenshots/Heatmap-of-Age-Range.png)
+
 ## Models
 
 ### Multi-Label Classification Models
@@ -76,3 +83,11 @@ For those wanting to use a Virtual Environment run the following in a terminal:
 
 ## Statistical Methods
 - **Cross-Validation**: used to estimate the skill of machine learning models. It is a re-sampling procedure used to evaluate models on a limited data sample. It uses a single parameter *k* - that refers to the number of groups each data sample will be split into. The process is repeated *k* times, each with a different fold treated as the validation set. 
+- **Confusion Matrix of Single-Label Models**: The confusion matrixs were plotted using matplotlib & seaborn libraries for the model's confusion matrix to review the performance of the single-label model performance. 
+
+**Random Forest Confusion Matrix**
+![RF-Confusion-Matrix](Screenshots/Random-Forest-cf.png)
+**XGBoost Confusion Matrix**
+![XGBoost-CF](Screenshots/XGBoost-cf.png)
+**Logistic Regression Confusion Matrix**
+![LR-CF](Screenshots/LR-CF.png)
