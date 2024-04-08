@@ -71,7 +71,7 @@ Used to conduct the EDA of the data set and understand the relationships and cor
 - **XGBoost**: 
     - XGBoost or eXtreme Gradient Boosting is highly efficient, flexible, and portable. It provides parallel tree boosting.
 
-! [Multi-label](Screenshots/Model-multi.png)
+![Multi-label](Screenshots/Model-multi.png)
 
 ### Single-Label Classification Models
 - **Random Forest**:
