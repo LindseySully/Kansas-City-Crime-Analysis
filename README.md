@@ -92,8 +92,13 @@ Used to conduct the EDA of the data set and understand the relationships and cor
 - **Confusion Matrix of Single-Label Models**: The confusion matrixs were plotted using matplotlib & seaborn libraries for the model's confusion matrix to review the performance of the single-label model performance. 
 
 **Random Forest Confusion Matrix**
+
 ![RF-Confusion-Matrix](Screenshots/Random-Forest-cf.png)
+
 **XGBoost Confusion Matrix**
+
 ![XGBoost-CF](Screenshots/XGBoost-cf.png)
+
 **Logistic Regression Confusion Matrix**
+
 ![LR-CF](Screenshots/LR-CF.png)
