@@ -102,3 +102,13 @@ Used to conduct the EDA of the data set and understand the relationships and cor
 **Logistic Regression Confusion Matrix**
 
 ![LR-CF](Screenshots/LR-CF.png)
+
+### Neural Network Loss Curves
+**Neural Network Loss Curve - Multi**
+
+![Loss-Curve-Multi](Screenshots/Loss-Curve-Multi.png)
+
+**Neural Network Loss Curve - Single**
+
+![Loss-Curve-Single](Screenshots/Loss-Curve-Single.png)
+
