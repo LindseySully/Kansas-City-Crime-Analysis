@@ -70,6 +70,7 @@ Used to conduct the EDA of the data set and understand the relationships and cor
     - k-NN, stores all available cases and classifies new cases based on a similarity measure. It is non-parametric, meaning no underlying assumptions about the distribution of data.
 - **XGBoost**: 
     - XGBoost or eXtreme Gradient Boosting is highly efficient, flexible, and portable. It provides parallel tree boosting.
+
 ! [Multi-label](Screenshots/Model-multi.png)
 
 ### Single-Label Classification Models
@@ -81,7 +82,9 @@ Used to conduct the EDA of the data set and understand the relationships and cor
     - Logistic regression is a supervised learning algorithm used with binary classification problems
 - **Neural Net**:
     - Neural Network are machine learning programs that consist of layers or nodes or artifical neurons. It relies on training data to learn and improve their accuracy over time.
+
 ![Single-Label](Screenshots/single-label.png)
+
 ## Statistical Methods
 - **Cross-Validation**: used to estimate the skill of machine learning models. It is a re-sampling procedure used to evaluate models on a limited data sample. It uses a single parameter *k* - that refers to the number of groups each data sample will be split into. The process is repeated *k* times, each with a different fold treated as the validation set. 
 
